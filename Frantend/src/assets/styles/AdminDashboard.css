@@ -1,0 +1,117 @@
+.dashboard-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: nowrap;  /* Ensures one row */
+  overflow-x: auto;   /* Optional: scroll if screen is too small */
+}
+
+
+.dashboard-card {
+  flex: 1 1 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.card-content p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+.card-icon {
+  font-size: 40px;
+}
+
+/* Color Themes */
+.orange {
+  background: linear-gradient(135deg, #ff9a44, #ff6f61);
+}
+
+.purple {
+  background: linear-gradient(135deg, #9b5de5, #6a4c93);
+}
+
+.blue {
+  background: linear-gradient(135deg, #43c6ac, #191654);
+}
+
+/* new */
+
+.dashboard-cards-container {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card.orange {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.dashboard-card.purple {
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+}
+
+.dashboard-card.blue {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.card-content h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.card-content p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+}
+
+/* Bar chart styles */
+.bar-chart-container {
+  background-color: white;
+  margin: 20px 30px;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  height: auto;
+}
+
+.bar-chart-container h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #333;
+}

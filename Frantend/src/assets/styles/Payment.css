@@ -1,0 +1,58 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.popup-content button {
+    margin-top: 1rem;
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.payment-table th,
+.payment-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.payment-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.payment-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.payment-table tr:hover {
+    background-color: #f1f1f1;
+}

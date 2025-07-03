@@ -1,0 +1,132 @@
+/* category.css */
+.category-container {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fbff;
+  }
+  
+  .left-panel {
+    flex: 1;
+  }
+  
+  .right-panel {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #1e1e2f;
+    margin-bottom: 1rem;
+  }
+  
+  .subtext {
+    color: #6a6f7d;
+    margin-bottom: 1.5rem;
+  }
+  
+  .learn-more {
+    background-color: #0057ff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  
+  .features .feature {
+    background-color: #cbd0fa;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1.0rem;
+  }
+  
+  .dashboard {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .courses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .course-box {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    width: 48%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .course-box.purple {
+    background-color: #6c63ff;
+    color: white;
+  }
+  
+  .course-box.green {
+    background-color: #34d399;
+    color: white;
+  }
+  
+  .study-stats {
+    margin-bottom: 2rem;
+  }
+  
+  .stats-bar {
+    display: flex;
+    gap: 3.5rem;
+    align-items: flex-end;
+    height: 100px;
+    margin: 1rem 0;
+  }
+  
+  .bar-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
+    width: 20px;
+  }
+  
+  .bar {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .learning {
+    height: 60px;
+    background-color: #3b82f6;
+  }
+  
+  .challenge {
+    height: 40px;
+    background-color: #10b981;
+  }
+  
+  .stats-summary p {
+    margin: 0.3rem 0;
+  }
+  
+  .agenda .event {
+    background-color: #f2f6ff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .agenda .event span {
+    color: #4b5563;
+    font-size: 0.875rem;
+  }
+  

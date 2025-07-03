@@ -1,0 +1,83 @@
+/* AboutUs.css */
+.about-container {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-header .highlight {
+    color: #2563eb;
+}
+
+.about-description {
+    max-width: 400px;
+    text-align: right;
+}
+
+.about-description p {
+    color: #6b7280;
+    margin-bottom: 10px;
+}
+
+.how-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.how-button:hover {
+    background-color: #1d4ed8;
+}
+
+.about-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-quote {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.ceo-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ceo-title {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
